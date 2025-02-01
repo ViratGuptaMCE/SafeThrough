@@ -85,7 +85,7 @@ Sakhi Safety is a web application designed to enhance personal safety and provid
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/sakhi-safety.git
+   git clone https://github.com/ViratGuptaMCE/SafeThrough.git
    cd sakhi-safety
    ```
 
