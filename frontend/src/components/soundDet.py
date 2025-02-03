@@ -1,9 +1,9 @@
-import librosa
+import librosa # type: ignore
 import numpy as np
-import sounddevice as sd
-from scipy.io.wavfile import write
-from sklearn.preprocessing import StandardScaler
-from tensorflow.keras.models import load_model
+import sounddevice as sd # type: ignore
+from scipy.io.wavfile import write # type: ignore
+from sklearn.preprocessing import StandardScaler # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
 
 # Load pre-trained sentiment analysis model
 model = load_model("sentiment_model.h5")  # Replace with your trained model path

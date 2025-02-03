@@ -1,12 +1,12 @@
-import spacy
+import spacy # type: ignore
 import csv
-import pandas as pd
-import nltk
+import pandas as pd # type: ignore
+import nltk # type: ignore
 import numpy as np
-import tensorflow as tf
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from sklearn.feature_extraction.text import CountVectorizer
+import tensorflow as tf # type: ignore
+from nltk.corpus import stopwords # type: ignore
+from nltk.stem import PorterStemmer # type: ignore
+from sklearn.feature_extraction.text import CountVectorizer # type: ignore
 stemmer = PorterStemmer()
 nltk.download('stopwords')
 
