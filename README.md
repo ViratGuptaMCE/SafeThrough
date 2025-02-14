@@ -1,8 +1,8 @@
-# Sakhi Safety - Real-Time Safety and Emergency Assistance Web App
+# Safe Through - Real-Time Safety and Emergency Assistance Web App
 
 ## Overview
 
-Sakhi Safety is a web application designed to enhance personal safety and provide real-time assistance in emergency situations. The app leverages advanced technologies like **Go Maps Pro**, **OpenLayers**, **Librosa**, and **Socket.IO** to offer features such as real-time location tracking, safe route prediction, voice sentiment analysis, and emergency response. Whether you're in distress, facing a vehicle breakdown, or simply seeking the safest route to your destination, Sakhi Safety is here to help.
+Safe Through is a web application designed to enhance personal safety and provide real-time assistance in emergency situations. The app leverages advanced technologies like **Go Maps Pro**, **OpenLayers**, **Librosa**, and **Socket.IO** to offer features such as real-time location tracking, safe route prediction, voice sentiment analysis, and emergency response. Whether you're in distress, facing a vehicle breakdown, or simply seeking the safest route to your destination, Safe Through is here to help.
 
 ---
 
@@ -86,7 +86,7 @@ Sakhi Safety is a web application designed to enhance personal safety and provid
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ViratGuptaMCE/SafeThrough.git
-   cd sakhi-safety
+   cd safethrough
    ```
 
 2. **Install Dependencies**:
@@ -129,7 +129,7 @@ Sakhi Safety is a web application designed to enhance personal safety and provid
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to Sakhi Safety, please follow these steps:
+We welcome contributions! If you'd like to contribute to Safe Through, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -137,4 +137,4 @@ We welcome contributions! If you'd like to contribute to Sakhi Safety, please fo
 4. Submit a pull request.
 ---
 
-**Stay Safe with Sakhi Safety!**
+**Stay Safe with Safe Through!**

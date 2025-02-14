@@ -142,10 +142,10 @@ for i in range(len(vocab)):
     else:
         vector_input.append(0)
 
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB # type: ignore
 gnb = GaussianNB()
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split # type: ignore
 for i in range(28):
     X_train, x_t, y_train, y_test = train_test_split(sentances[1:], document[emotions[i]].tolist()[1:], test_size=0.4, random_state=0)
 
@@ -154,7 +154,7 @@ for i in range(28):
     y_pred = gnb.predict(x_t)
     print(y_pred)
 
-    from sklearn import metrics
+    from sklearn import metrics # type: ignore
     print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, y_pred)*100)
     # print(X_test)
     print(gnb.predict(X_test))
